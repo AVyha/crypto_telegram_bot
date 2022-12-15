@@ -10,8 +10,12 @@ pip install -r requirements.txt
 
 ## How to use
 
-Create `.env` file and set yours telegram bot token how it in example `.env_example` or use command `set BOT_TOKEN="bot_token"` in terminal
+Create `.env` file and set yours telegram bot token how it in example `.env_example`
 
 Write pair for trade. For example try `BTCUSDT` or `YFIUSDT`
+
+## Example
+
+![img.png](img.png)
 
 

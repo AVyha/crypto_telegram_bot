@@ -29,11 +29,11 @@ def send_welcome(message):
 def echo_all(message):
     context = {
         "pair": message.text,
-        "timeframe": random.choice(["5m", "15m", "1h", "4h", "1d", "1w", "1M"]),
-        "candles": random.randint(0, 1000),
-        "ma": random.randint(0, 100),
-        "tp": random.randint(0, 100),
-        "sl": random.randint(0, 100),
+        "Timeframe": random.choice(["5m", "15m", "1h", "4h", "1d", "1w", "1M"]),
+        "Candles ": random.randint(0, 1000),
+        "MA diapason": random.randint(0, 100),
+        "TP": random.randint(0, 100),
+        "SL": random.randint(0, 100),
     }
 
     page = requests.post(URL, context).content
